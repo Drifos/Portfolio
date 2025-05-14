@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+    <div class="tela">
+        <nav>
+            <div class="menu" id="menu">&#9776</div>
+                <ul class="list" id="list">
+                    <li>
+                        <a href= "index.html" >Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+        </nav>
+
+
+        <header>
+            <div class="center">
+                <img src="./img/Raphael-Moraes.jpeg"></img>
+            </div>
+        </header>
+        <h1>Quer falar comigo?</h1>
+        <nav>
+            <ul>
+                <li>
+                    <h2>
+                        <a href="https://wa.me/5532998055939?text=Olá%20gostaria%20de%20falr%20com%20voçê!"
+                            target="_blank" rel="noopener noreferrer">Numero: (32)99805-5939</a>
+                    </h2>
+                </li>
+                <li>
+                    <h2>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raphaelmoraes5566@gmail.com"
+                            target="_blank" rel="noopener noreferrer">Email: raphaelmoraes5566@gmail.com</a>
+                    </h2>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <script>
+        const toggle = document.getElementById('menu');
+        const navList = document.getElementById('list');
+        toggle.addEventListener('click', ()=>{navList.classList.toggle('active');});
+   </script>
+
+</body>
+
+</html>

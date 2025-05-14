@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphael Moraes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <div class="container">
+    <nav>
+        <div class="menu" id="menu">&#9776</div>
+            <ul class="list" id="list">
+                <li>
+                    <a href= "index.html" >Sobre mim</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+    </nav>
+
+    <header>
+        <div class = "center">
+            <img src="./img/Raphael-Moraes.jpeg"></img>
+        </div>
+        <h1><b>Raphael Moraes</b></h1>
+        <h2><b>Desenvolvedor de Software</b></h2>
+    </header>
+
+    <main>
+        <section>
+            <h3><b><u>Sobre mim</u></b></h3>
+            <p>
+                Olá, meu nome é Raphael da Silva Moraes. Sou estudante de Ciência da Computação e estou em busca de uma oportunidade de emprego ou estágio que me permita aplicar meus conhecimentos, aprender continuamente e crescer profissionalmente. Tenho facilidade em trabalhar em equipe, boa comunicação, senso de responsabilidade e foco em resultados. Me destaco por habilidades como liderança, resolução de problemas e proatividade. Tenho interesse por áreas como desenvolvimento de sistemas, análise de dados e automação de processos
+            </p>
+        </section>
+        <section>
+            <h3><b><u>Formação</u></b></h3>
+            <p>
+                <b>Curso:</b> Bacharelado em Ciência da Computação <br>
+                <b>Instituição:</b> Instituto Federal do Sudeste de Minas Gerais Campus Rio Pomba <br>
+                <b>Previsão de Conclusão:</b> 2026 <br>
+            </p>
+            <p>    
+                Além da formação acadêmica, tenho conhecimentos complementares em princípios contábeis, o que me proporciona uma visão
+                interdisciplinar útil em projetos que envolvem análise de dados financeiros ou automação de planilhas.
+            </p>
+        </section>
+        <section>
+            <h3><b><u>Habilidades Técnicas</u></b></h3>
+            <p>
+                <b>Linguagens de Programação:</b> C++, Java <br>
+                <b>Análise de Dados:</b> Conhecimento em estruturação e interpretação de dados <br>                   
+                <b>Desenvolvimento de Algoritmos:</b> Experiência com lógica e resolução de problemas <br>
+            </p>
+            <p>
+                <b>Ferramentas:</b>
+                Microsoft Excel (nível avançado) <br>
+                Git e GitHub (nível intermediário) <br>
+                Fundamentos de Banco de Dados (MySQL, PostgreSQL básico) <br>
+                Conhecimentos básicos em HTML, CSS e JavaScript <br>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/raphael-smrx" target="_blank" rel="noopener noreferrer">
+            <img src="./img/linkedin.svg"></img>
+            <p>linkedin</p>
+        </a>
+
+        <a href="https://www.instagram.com/raphael_smrx" target="_blank" rel="noopener noreferrer">
+            <img src="./img/instagram.svg"></img>
+            <p>Instagram</p>
+        </a>
+    </footer>
+
+   </div>
+
+   <script>
+        const toggle = document.getElementById('menu');
+        const navList = document.getElementById('list');
+        toggle.addEventListener('click', ()=>{navList.classList.toggle('active');});
+   </script>
+</body>
+</html>
